@@ -10,6 +10,9 @@ export default function App() {
       <Motion.div class="fixed flex bottom-24 w-full z-10" animate={{ opacity: 1, bottom: "6rem" }} initial={{ opacity: 0, bottom: 0 }} transition={{ duration: 1 }}>
         <Wrapper>
           <Bubble>
+          <Bubble style="w-full h-full col-span-3 row-span-3 max-h-[500px] rounded-2xl">
+            <img class="flex w-full h-full rounded-2xl" src="/Optimized-profile-pic.jpg"></img>
+          </Bubble>
           <Bubble border style="col-span-3 space-y-2">
             <Progress size="md" precentage={100} name="Lua"></Progress>
             <Progress size="md" precentage={100} name="Javascript"></Progress>
