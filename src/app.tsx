@@ -2,6 +2,7 @@
 import Bubble from "./components/bubble";
 import Wrapper from "./components/wrapper";
 import Progress from "./components/progress";
+import { SiNeovim, SiNodedotjs, SiLinux, SiSpotify } from 'solid-icons/si';
 import "./app.css";
 
 export default function App() {
@@ -18,6 +19,12 @@ export default function App() {
             <Progress size="md" precentage={100} name="Javascript"></Progress>
             <Progress size="md" precentage={85} name="Python"></Progress>
             <Progress size="md" precentage={75} name="C#"></Progress>
+          </Bubble>
+          <Bubble border style="grid row-span-3 space-y-2">
+            <SiLinux class="m-auto" size={"100%"}/>
+            <SiSpotify class="m-auto" size={"100%"}/>
+            <SiNeovim class="m-auto" size={"100%"}/>
+            <SiNodedotjs class="m-auto" size={"100%"}/>
           </Bubble>
           </Bubble>
         </Wrapper>
