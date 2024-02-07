@@ -9,6 +9,7 @@ import Image from "./components/image";
 export default function App() {
   return (
     <main class="w-screen h-screen">
+      <div class="w-full h-full flex flex-col p-32 pl-24 pr-24 z-10">
         <h1 class="p-2 font-bold text-6xl">Drunk Taric</h1>
         <Wrapper>
           <Bubble>
@@ -32,6 +33,7 @@ export default function App() {
           </Bubble>
           </Bubble>
         </Wrapper>
+      </div>
     </main>
   );
 }
