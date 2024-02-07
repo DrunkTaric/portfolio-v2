@@ -8,7 +8,7 @@ import Image from "./components/image";
 
 export default function App() {
   return (
-    <main class="w-full h-full">
+    <main class="w-screen h-screen">
         <Wrapper>
           <Bubble>
           <Bubble style="w-full h-full col-span-3 row-span-3 max-h-[500px] rounded-2xl">
