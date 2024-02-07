@@ -1,9 +1,8 @@
 // @refresh reload
-import { Motion } from "solid-motionone";
 import Bubble from "./components/bubble";
-import "./app.css";
 import Wrapper from "./components/wrapper";
 import Progress from "./components/progress";
+import "./app.css";
 
 export default function App() {
   return (
