@@ -9,6 +9,7 @@ import Image from "./components/image";
 export default function App() {
   return (
     <main class="w-screen h-screen">
+        <h1 class="p-2 font-bold text-6xl">Drunk Taric</h1>
         <Wrapper>
           <Bubble>
           <Bubble style="w-full h-full col-span-3 row-span-3 max-h-[500px] rounded-2xl">
