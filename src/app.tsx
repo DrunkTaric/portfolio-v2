@@ -17,7 +17,7 @@ export default function App() {
           <Bubble border style="col-span-3 text-gray-100 text-opacity-75">
           Passionate developer with 7 years of coding experience, driven by a love for programming, technology, and AI. Actively seeking new professional opportunities. Dedicated to quality, with a strong focus on problem-solving. Enjoys coding, reading, and consistently seeks to enhance skills within the tech industry.
           </Bubble>
-          <Bubble border style="col-span-3 space-y-2">
+          <Bubble border style="grid grid-rows-4 col-span-3">
             <Progress size="md" precentage={100} name="Lua"></Progress>
             <Progress size="md" precentage={100} name="Javascript"></Progress>
             <Progress size="md" precentage={85} name="Python"></Progress>
