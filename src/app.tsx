@@ -14,6 +14,8 @@ export default function App() {
           <Bubble style="w-full h-full col-span-3 row-span-3 max-h-[500px] rounded-2xl">
             <Image src="/Optimized-profile-pic.jpg" class={"rounded-xl"}></Image>
           </Bubble>
+          <Bubble border style="col-span-3 text-gray-100 text-opacity-75">
+          Passionate developer with 7 years of coding experience, driven by a love for programming, technology, and AI. Actively seeking new professional opportunities. Dedicated to quality, with a strong focus on problem-solving. Enjoys coding, reading, and consistently seeks to enhance skills within the tech industry.
           </Bubble>
           <Bubble border style="col-span-3 space-y-2">
             <Progress size="md" precentage={100} name="Lua"></Progress>
