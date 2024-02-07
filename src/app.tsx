@@ -4,6 +4,7 @@ import Wrapper from "./components/wrapper";
 import Progress from "./components/progress";
 import { SiNeovim, SiNodedotjs, SiLinux, SiSpotify } from 'solid-icons/si';
 import "./app.css";
+import Image from "./components/image";
 
 export default function App() {
   return (
@@ -11,7 +12,7 @@ export default function App() {
         <Wrapper>
           <Bubble>
           <Bubble style="w-full h-full col-span-3 row-span-3 max-h-[500px] rounded-2xl">
-            <img class="flex w-full h-full rounded-2xl" src="/Optimized-profile-pic.jpg"></img>
+            <Image src="/Optimized-profile-pic.jpg" class={"rounded-xl"}></Image>
           </Bubble>
           </Bubble>
           <Bubble border style="col-span-3 space-y-2">
