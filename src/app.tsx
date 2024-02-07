@@ -12,7 +12,6 @@ export default function App() {
       <div class="w-full h-full flex flex-col p-32 pl-24 pr-24 z-10">
         <h1 class="p-2 font-bold text-6xl">Drunk Taric</h1>
         <Wrapper>
-          <Bubble>
           <Bubble style="w-full h-full col-span-3 row-span-3 max-h-[500px] rounded-2xl">
             <Image src="/Optimized-profile-pic.jpg" class={"rounded-xl"}></Image>
           </Bubble>
