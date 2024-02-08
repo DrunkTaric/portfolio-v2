@@ -30,6 +30,7 @@ export default function App() {
             <SiNeovim class="m-auto" size={"100%"}/>
             <SiNodedotjs class="m-auto" size={"100%"}/>
           </Bubble>
+          <Bubble style="w-full h-full col-span-2">
           </Bubble>
         </Wrapper>
       </div>
