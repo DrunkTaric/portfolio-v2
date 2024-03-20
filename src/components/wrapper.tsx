@@ -1,6 +1,6 @@
 export default function(props: { children: any }) {
     return (
-        <div class="w-full h-full grid grid-cols-10 gap-5 auto-rows-max">
+        <div class="w-full h-full grid grid-cols-10 gap-5 auto-rows-fr">
             { props.children }
         </div>
     )
