@@ -82,6 +82,7 @@ export default function App() {
         </Bubble>
       </section>
       <h1 class="text-5xl text-white p-5 font-bold">Projects</h1>
+      <Projects/>
     </main>
   );
 }
