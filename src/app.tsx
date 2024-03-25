@@ -62,6 +62,18 @@ export default function App() {
           <Audio/>
         </Bubble>
 
+        <Bubble style="flex col-span-2 rounded-[1.5rem]">
+          <ImLinkedin2 class="w-12 h-12 m-auto"/>
+        </Bubble>
+
+        <Bubble style="flex col-span-2 rounded-[1.5rem]">
+          <SiGithub class="w-12 h-12 m-auto"/>
+        </Bubble>
+
+        <Bubble style="flex col-span-2 rounded-[1.5rem]">
+          <SiDiscord class="w-14 h-14 m-auto"/>
+        </Bubble>
+
       </section>
     </main>
   );
