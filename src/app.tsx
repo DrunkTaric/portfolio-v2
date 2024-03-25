@@ -38,6 +38,7 @@ export default function App() {
   return (
     <main class="flex flex-col w-screen h-screen justify-center items-center">
       <div id="cursor" class="w-[15rem] h-[15rem] bg-purple-800/50 blur-2xl absolute rounded-full -z-50"></div>
+      <h1 class="text-7xl text-white p-5 font-bold">DrunkTaric</h1>
     </main>
   );
 }
