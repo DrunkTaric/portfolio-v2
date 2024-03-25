@@ -81,6 +81,7 @@ export default function App() {
           <Progress precentage={70} name={"C#"} size="md" />
         </Bubble>
       </section>
+      <h1 class="text-5xl text-white p-5 font-bold">Projects</h1>
     </main>
   );
 }
