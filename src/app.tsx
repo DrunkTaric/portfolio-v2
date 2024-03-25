@@ -74,6 +74,12 @@ export default function App() {
           <SiDiscord class="w-14 h-14 m-auto"/>
         </Bubble>
 
+        <Bubble style="space-y-3 row-span-2 col-span-6" border>
+          <Progress precentage={100} name={"Lua"} size="md" />
+          <Progress precentage={95} name={"Javascript"} size="md" />
+          <Progress precentage={80} name={"Python"} size="md" />
+          <Progress precentage={70} name={"C#"} size="md" />
+        </Bubble>
       </section>
     </main>
   );
