@@ -35,6 +35,8 @@ export default function App() {
     })
   }, 0)
 
+  return (
+    <main class="flex flex-col w-screen h-screen justify-center items-center">
     </main>
   );
 }
