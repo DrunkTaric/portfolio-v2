@@ -58,6 +58,10 @@ export default function App() {
           <SiNodedotjs class="w-full h-full m-auto" />
         </Bubble>
 
+        <Bubble style="flex flex-col space-y-4 row-span-5" border>
+          <Audio/>
+        </Bubble>
+
       </section>
     </main>
   );
