@@ -13,7 +13,7 @@ export default function Progress(props: { precentage: number, name: string, size
         <div class={clsx("flex mt-auto mb-auto", styles[props.size])}>
             <h1 class="mt-auto mb-auto w-32">{ props.name }</h1>
             <div class={clsx("w-full h-full rounded-3xl bg-gray-500 bg-opacity-35")}>
-                <Motion.div class="h-full bg-blue-600 rounded-3xl" initial={{width: "0%"}} animate={{width: `${props.precentage}%`}} transition={{duration: 2}}>
+                <Motion.div class="h-full bg-purple-800 rounded-3xl" initial={{width: "0%"}} animate={{width: `${props.precentage}%`}} transition={{duration: 2}}>
                 </Motion.div>
             </div>
         </div>
