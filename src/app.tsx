@@ -63,15 +63,21 @@ export default function App() {
         </Bubble>
 
         <Bubble style="flex col-span-2 rounded-[1.5rem]">
-          <ImLinkedin2 class="w-12 h-12 m-auto"/>
+          <a href="" target="_blank" class="m-auto">
+            <ImLinkedin2 class="w-12 h-12"/>
+          </a>
         </Bubble>
 
         <Bubble style="flex col-span-2 rounded-[1.5rem]">
-          <SiGithub class="w-12 h-12 m-auto"/>
+          <a href="https://github.com/DrunkTaric" target="_blank" class="m-auto">
+            <SiGithub class="w-12 h-12"/>
+          </a>
         </Bubble>
 
         <Bubble style="flex col-span-2 rounded-[1.5rem]">
-          <SiDiscord class="w-14 h-14 m-auto"/>
+          <a href="https://discordapp.com/users/921584553640992810" target="_blank" class="m-auto">
+            <SiDiscord class="w-14 h-14"/>
+          </a>
         </Bubble>
 
         <Bubble style="space-y-3 row-span-2 col-span-6" border>
@@ -81,9 +87,10 @@ export default function App() {
           <Progress precentage={70} name={"C#"} size="md" />
         </Bubble>
       </section>
-      <h1 class="text-5xl text-white p-5 font-bold">Projects</h1>
-      <Projects/>
+      {false && <h1 class="text-5xl text-white p-5 font-bold">Projects</h1>}
+      {false && <Projects/> }
       <h1 class="text-5xl text-white p-5 font-bold">Roadmap</h1>
+      
     </main>
   );
 }
