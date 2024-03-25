@@ -83,6 +83,7 @@ export default function App() {
       </section>
       <h1 class="text-5xl text-white p-5 font-bold">Projects</h1>
       <Projects/>
+      <h1 class="text-5xl text-white p-5 font-bold">Roadmap</h1>
     </main>
   );
 }
