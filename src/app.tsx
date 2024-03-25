@@ -40,6 +40,7 @@ export default function App() {
       <div id="cursor" class="w-[15rem] h-[15rem] bg-purple-800/50 blur-2xl absolute rounded-full -z-50"></div>
       <h1 class="text-7xl text-white p-5 font-bold">DrunkTaric</h1>
       <section class="w-[85%] h-[55%] grid grid-cols-12 grid-rows-5 gap-5">
+        <Image src="profile-pic.jpg" class="col-span-4 row-span-5 select-none"/>
       </section>
     </main>
   );
