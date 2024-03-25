@@ -1,11 +1,15 @@
 // @refresh reload
 import Image from "./components/image";
+import Projects from "./components/projects"
+import Audio from "./components/audio";
 import Bubble from "./components/bubble";
 import Wrapper from "./components/wrapper";
 import Progress from "./components/progress";
-import { SiNeovim, SiNodedotjs, SiLinux, SiSpotify } from 'solid-icons/si';
+import { SiNeovim, SiGit, SiNodedotjs, SiLinux, SiSpotify, SiDiscord, SiGithub } from 'solid-icons/si';
 import Contact from "./components/contact";
 import Social from "./components/social";
+import { ImLinkedin2 } from 'solid-icons/im'
+import { createEffect, createSignal } from "solid-js";
 import "./app.css";
 
 export default function App() {
