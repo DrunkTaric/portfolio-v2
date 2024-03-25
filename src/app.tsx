@@ -46,6 +46,14 @@ export default function App() {
           Passionate developer with 7 years of coding experience, driven by a love for programming, technology, and AI. Actively seeking new professional opportunities. Dedicated to quality, with a strong focus on problem-solving. Enjoys coding, reading, and consistently seeks to enhance skills within the tech industry.
         </Bubble>
 
+        <Bubble style="row-span-5 grid grid-rows-5" border>
+          <SiLinux class="w-full h-full m-auto" />
+          <SiSpotify class="w-full h-full m-auto" />
+          <SiGit class="w-full h-full m-auto" />
+          <SiNeovim class="w-full h-full m-auto" />
+          <SiNodedotjs class="w-full h-full m-auto" />
+        </Bubble>
+
       </section>
     </main>
   );
