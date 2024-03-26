@@ -44,7 +44,7 @@ export default function App() {
       <div id="cursor" class="w-[15rem] h-[15rem] bg-purple-800/50 blur-2xl absolute rounded-full -z-50"></div>
       <h1 class="text-7xl text-white p-5 font-bold">DrunkTaric</h1>
       <section class="w-[85%] h-[55%] grid grid-cols-12 grid-rows-5 gap-5">
-        <Image src="profile-pic.jpg" class="col-span-4 row-span-5 select-none"/>
+        <Image src="profile-pic.jpg" class="h-full w-full col-span-4 row-span-5 select-none"/>
 
         <Bubble style="row-span-2 col-span-6 text-xl" border>
           Passionate developer with 7 years of coding experience, driven by a love for programming, technology, and AI. Actively seeking new professional opportunities. Dedicated to quality, with a strong focus on problem-solving. Enjoys coding, reading, and consistently seeks to enhance skills within the tech industry.
