@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "comborush-portfolio-v-88"
-          entrypoint: "/src/app.tsx"
+          entrypoint: ".output/server/index.mjs "
           root: ""
