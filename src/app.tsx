@@ -1,13 +1,13 @@
 // @refresh reload
 import Image from "./components/image";
-import Projects from "./components/projects"
 import Audio from "./components/audio";
 import Bubble from "./components/bubble";
-import Progress from "./components/progress";
-import { SiNeovim, SiGit, SiNodedotjs, SiLinux, SiSpotify, SiDiscord, SiGithub } from 'solid-icons/si';
 import { ImLinkedin2 } from 'solid-icons/im'
-import { createEffect, createSignal } from "solid-js";
+import Progress from "./components/progress";
+import Projects from "./components/projects";
 import ProfilePic from "./assets/profile-pic.jpg";
+import { createEffect, createSignal } from "solid-js";
+import { SiNeovim, SiGit, SiNodedotjs, SiLinux, SiSpotify, SiDiscord, SiGithub } from 'solid-icons/si';
 
 export default function App() {
   const [Pos, setPos] = createSignal({x: 0, y: 0})
