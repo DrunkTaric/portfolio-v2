@@ -10,8 +10,7 @@ import Contact from "./components/contact";
 import Social from "./components/social";
 import { ImLinkedin2 } from 'solid-icons/im'
 import { createEffect, createSignal } from "solid-js";
-import "./app.css";
-
+import "./App.module.css"
 export default function App() {
   const [Pos, setPos] = createSignal({x: 0, y: 0})
 
@@ -89,7 +88,7 @@ export default function App() {
       </section>
       {false && <h1 class="text-5xl text-white p-5 font-bold">Projects</h1>}
       {false && <Projects/> }
-      <h1 class="text-5xl text-white p-5 font-bold">Roadmap</h1>
+      {false && <h1 class="text-5xl text-white p-5 font-bold">Roadmap</h1> }
       
     </main>
   );
