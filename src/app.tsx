@@ -42,7 +42,7 @@ export default function App() {
       <section class="w-[85%] h-[55%] grid grid-cols-12 grid-rows-5 gap-5">
         <Image src="profile-pic.jpg" class="h-full w-full col-span-4 row-span-5 select-none"/>
 
-        <Bubble style="row-span-2 col-span-6 text-xl" border>
+        <Bubble style="row-span-2 col-span-6 text-2xl" border>
           Passionate developer with 7 years of coding experience, driven by a love for programming, technology, and AI. Actively seeking new professional opportunities. Dedicated to quality, with a strong focus on problem-solving. Enjoys coding, reading, and consistently seeks to enhance skills within the tech industry.
         </Bubble>
 
@@ -76,7 +76,7 @@ export default function App() {
           </a>
         </Bubble>
 
-        <Bubble style="space-y-3 row-span-2 col-span-6" border>
+        <Bubble style="grid grid-rows-4 row-span-2 col-span-6" border>
           <Progress precentage={100} name={"Lua"} size="md" />
           <Progress precentage={95} name={"Javascript"} size="md" />
           <Progress precentage={80} name={"Python"} size="md" />
