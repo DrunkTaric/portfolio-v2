@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@solid-primitives/audio':
+    specifier: ^1.3.17
+    version: 1.3.17(solid-js@1.8.11)
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -886,6 +889,16 @@ packages:
       solid-js: 1.8.11
     dev: true
 
+  /@solid-primitives/audio@1.3.17(solid-js@1.8.11):
+    resolution: {integrity: sha512-pTnybdJAq1bV161LOvcO+h+ms5Y3uWiEvA4LUrfDKnom2f7+DSn7iLbYNGrZDAYs9y/0WJ9FzSbrR3hTb/ioKA==}
+    peerDependencies:
+      solid-js: ^1.6.12
+    dependencies:
+      '@solid-primitives/static-store': 0.0.8(solid-js@1.8.11)
+      '@solid-primitives/utils': 6.2.3(solid-js@1.8.11)
+      solid-js: 1.8.11
+    dev: false
+
   /@solid-primitives/bounds@0.0.118(solid-js@1.8.11):
     resolution: {integrity: sha512-Qj42w8LlnhJ3r/t+t0c0vrdwIvvQMPgjEFGmLiwREaA85ojLbgL9lSBq2tKvljeLCvRVkgj10KEUf+vc99VCIg==}
     peerDependencies:
@@ -1019,6 +1032,15 @@ packages:
       '@solid-primitives/utils': 6.2.2(solid-js@1.8.11)
       solid-js: 1.8.11
     dev: true
+
+  /@solid-primitives/static-store@0.0.8(solid-js@1.8.11):
+    resolution: {integrity: sha512-ZecE4BqY0oBk0YG00nzaAWO5Mjcny8Fc06CdbXadH9T9lzq/9GefqcSe/5AtdXqjvY/DtJ5C6CkcjPZO0o/eqg==}
+    peerDependencies:
+      solid-js: ^1.6.12
+    dependencies:
+      '@solid-primitives/utils': 6.2.3(solid-js@1.8.11)
+      solid-js: 1.8.11
+    dev: false
 
   /@solid-primitives/styles@0.0.111(solid-js@1.8.11):
     resolution: {integrity: sha512-1mBxOGAPXmfD5oYCvqjKBDN7SuNjz2qz7RdH7KtsuNLQh6lpuSKadtHnLvru0Y8Vz1InqTJisBIy/6P5kyDmPw==}
