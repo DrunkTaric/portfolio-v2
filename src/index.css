@@ -3,32 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply bg-black text-white
+    body {
+      @apply bg-black text-white
+    }
   }
-}
-
-@layer components {
-  .button {
-    @apply bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700
+  
+  @layer components {
+    .button {
+      @apply bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700
+    }
   }
-}
-
-body, html {
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-#app {
-  width: 100vh;
-  height: 100vh;
-}
-
-img {
-  width: 100%;
-  object-fit: cover;
-}
