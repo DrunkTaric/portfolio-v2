@@ -11,8 +11,8 @@
     "types": ["vite/client"],
     "noEmit": true,
     "isolatedModules": true,
+    "paths": {
+      "*": ["./src/*"],
+    }
   }, 
-  "paths": {
-    "*": ["*", "*.tsx"]
-  }
 }
