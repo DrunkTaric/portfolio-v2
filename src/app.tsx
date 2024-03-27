@@ -6,6 +6,7 @@ import Bubble from "./components/bubble";
 import { ImLinkedin2 } from 'solid-icons/im'
 import Progress from "./components/progress";
 import Projects from "./components/projects";
+import { isMobile } from 'mobile-device-detect';
 import ProfilePic from "./assets/profile-pic.jpg";
 import { SiNeovim, SiGit, SiNodedotjs, SiLinux, SiSpotify, SiDiscord, SiGithub } from 'solid-icons/si';
 
@@ -13,7 +14,7 @@ export default function App() {
   return (
     <main class="flex flex-col w-screen h-screen justify-center items-center">
 
-      <Cursor/>
+      {!isMobile && <Cursor/>}
 
       <h1 class="text-7xl text-white p-5 font-bold">DrunkTaric</h1>
       <section class="w-[85%] h-[55%] grid grid-cols-12 grid-rows-5 gap-5">
