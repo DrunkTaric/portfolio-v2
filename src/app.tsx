@@ -60,7 +60,7 @@ export default function App() {
         </Bubble>
 
         <Bubble style="flex col-span-2 rounded-[1.5rem]">
-          <a href="" target="_blank" class="m-auto">
+          <a href="https://www.linkedin.com/in/comborush/" target="_blank" class="m-auto">
             <ImLinkedin2 class="w-12 h-12"/>
           </a>
         </Bubble>
