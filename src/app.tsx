@@ -7,7 +7,7 @@ import { ImLinkedin2 } from 'solid-icons/im'
 import Progress from "./components/progress";
 import Projects from "./components/projects";
 import { isMobile } from 'mobile-device-detect';
-import ProfilePic from "./assets/profile-pic.jpg";
+import ProfilePic from "./assets/Optimized-profile-pic.jpg";
 import { SiNeovim, SiGit, SiNodedotjs, SiLinux, SiSpotify, SiDiscord, SiGithub } from 'solid-icons/si';
 export default function App() {
 
@@ -17,8 +17,7 @@ export default function App() {
       {!isMobile && <Cursor/>}
 
       <h1 class="text-7xl text-white p-5 font-bold">DrunkTaric</h1>
-      <Image src={ProfilePic} class="h-full w-full col-span-4 row-span-5 select-none"/>
-      
+
       <section class=" m-auto w-fit h-[50rem] grid grid-rows-12 auto-rows-fr p-5 sm:p-10 xl:grid-cols-12 xl:grid-rows-5 gap-5">
         <Image src={ProfilePic} class="h-full w-full row-span-6 xl:col-span-4 xl:row-span-5 select-none"/>
 
