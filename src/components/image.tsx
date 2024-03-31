@@ -7,7 +7,7 @@ export default function Image(props: { src: string, class?: string, alt?: string
     return (
         <div class={clsx(props.class)}>
             { Loading() && <Bubble style={clsx("text-white", props.class, "animate-pulse")} border></Bubble> }
-            <img alt={props.alt} class={Loading()? "hidden": "w-full h-full rounded-xl bg-contain"} src={props.src} onLoad={() => setLoading(false)}></img>
+            <img loading="lazy" alt={props.alt} class={Loading()? "hidden": "w-full h-full rounded-xl bg-contain"} src={props.src} onLoad={() => setLoading(false)}></img>
         </div>
     )
 }

@@ -6,7 +6,7 @@ export default function Bubble(props: { children?: any, style?: string , border?
         <Motion.div 
             initial={{opacity: 0}}
             animate={{opacity: 1}}
-            transition={{duration: 2}}
+            transition={{duration: 1}}
             class={clsx(
                 "w-auto h-auto bg-white/10", 
                 props.style,
