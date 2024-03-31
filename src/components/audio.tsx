@@ -27,7 +27,7 @@ export default function Audio() {
   
   return (
     <div class="flex flex-col space-y-5 w-full h-full">
-      <button onclick={() => {Sound()}}>
+      <button aria-label="Mute/Unmute Audio" onclick={() => {Sound()}}>
         { Muted() && <FaSolidVolumeXmark class="ml-auto mr-auto w-12 h-12"/> }
         { !Muted() && <FaSolidVolumeHigh class="ml-auto mr-auto w-12 h-12"/> }
       </button>

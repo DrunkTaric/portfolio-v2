@@ -38,19 +38,19 @@ export default function App() {
         </Bubble>
 
         <Bubble style="flex xl:col-span-2 rounded-[1.5rem]">
-          <a href="https://www.linkedin.com/in/comborush/" target="_blank" class="m-auto">
+          <a href="https://www.linkedin.com/in/comborush/" aria-label="Linkedin Profile" target="_blank" class="m-auto">
             <ImLinkedin2 class="w-12 h-12"/>
           </a>
         </Bubble>
 
         <Bubble style="flex xl:col-span-2 rounded-[1.5rem]">
-          <a href="https://github.com/DrunkTaric" target="_blank" class="m-auto">
+          <a href="https://github.com/DrunkTaric" aria-label="Github Profile" target="_blank" class="m-auto">
             <SiGithub class="w-12 h-12"/>
           </a>
         </Bubble>
 
         <Bubble style="flex xl:col-span-2 rounded-[1.5rem]">
-          <a href="https://discordapp.com/users/921584553640992810" target="_blank" class="m-auto">
+          <a href="https://discordapp.com/users/921584553640992810" aria-label="Discord Profile" target="_blank" class="m-auto">
             <SiDiscord class="w-14 h-14"/>
           </a>
         </Bubble>
