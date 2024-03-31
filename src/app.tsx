@@ -12,13 +12,13 @@ import { SiNeovim, SiGit, SiNodedotjs, SiLinux, SiSpotify, SiDiscord, SiGithub }
 export default function App() {
 
   return (
-    <main class="flex flex-col w-screen h-screen">
+    <main class="flex flex-col w-screen h-fit">
 
       {!isMobile && <Cursor/>}
 
-      <h1 class="text-7xl text-white p-5 font-bold">DrunkTaric</h1>
+      <h1 class="text-7xl text-center text-white p-5 font-bold">DrunkTaric</h1>
 
-      <section class=" m-auto w-fit h-[50rem] grid grid-rows-12 auto-rows-fr p-5 sm:p-10 xl:grid-cols-12 xl:grid-rows-5 gap-5">
+      <section class="m-auto w-[90%] h-[40rem] grid grid-rows-12 auto-rows-fr p-5 sm:p-10 xl:grid-cols-12 xl:grid-rows-5 gap-5">
         <Image src={ProfilePic} class="h-full w-full row-span-6 xl:col-span-4 xl:row-span-5 select-none"/>
 
         <Bubble style="xl:row-span-2 xl:col-span-6 text-2xl" border>
