@@ -22,7 +22,7 @@ export default function App() {
         <Image alt="DrunkTaric Profile Pic" src={ProfilePic} class="h-full w-full row-span-6 xl:col-span-4 xl:row-span-5 select-none"/>
 
         <Bubble style="xl:row-span-2 xl:col-span-6 text-2xl" border>
-          Passionate developer with 7 years of coding experience, driven by a love for programming, technology, and AI. Actively seeking new professional opportunities. Dedicated to quality, with a strong focus on problem-solving. Enjoys coding, reading, and consistently seeks to enhance skills within the tech industry.
+          Passionate developer with 6.5 years of coding experience, driven by a love for programming, technology, and AI. Actively seeking new professional opportunities. Dedicated to quality, with a strong focus on problem-solving. Enjoys coding, reading, and consistently seeks to enhance skills within the tech industry.
         </Bubble>
 
         <Bubble style="xl:row-span-5 grid grid-rows-5" border>
